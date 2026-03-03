@@ -1,13 +1,6 @@
 import { motion } from 'framer-motion';
 
-const spiceEmojis = [
-  { emoji: '🌶️', delay: 0 },
-  { emoji: '🫚', delay: 0.2 },
-  { emoji: '🌿', delay: 0.4 },
-  { emoji: '🧂', delay: 0.6 },
-  { emoji: '🌾', delay: 0.8 },
-  { emoji: '🍂', delay: 1 },
-];
+
 
 const Hero = () => {
   const scrollToProducts = () => {

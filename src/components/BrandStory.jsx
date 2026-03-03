@@ -13,19 +13,17 @@ const BrandStory = () => {
             transition={{ duration: 0.8 }}
           >
             <div className="brand-image-wrapper">
-               <div className="brand-image">
+              <div className="brand-image">
                 <img 
-                 src={VibrantIndianSpices}
+                  src={VibrantIndianSpices}
                   alt="Vibrant Indian Spices"
                   className="brand-img"
                 />
-                
               </div>
-              </div>
-              <div className="experience-badge">
-                <span className="experience-number">25+</span>
-                <span className="experience-text">Years of Excellence</span>
-              </div>
+            </div>
+            <div className="experience-badge">
+              <span className="experience-number">25+</span>
+              <span className="experience-text">Years of Excellence</span>
             </div>
           </motion.div>
           
