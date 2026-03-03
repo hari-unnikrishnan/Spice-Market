@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-
+import VibrantIndianSpices from '../assets/pngtree-vibrant-indian-spice-mix-with-turmeric-and-chili-peppers-on-wooden-image_17217516.jpg';
 const BrandStory = () => {
   return (
     <section className="brand-story" id="about">
@@ -13,12 +13,14 @@ const BrandStory = () => {
             transition={{ duration: 0.8 }}
           >
             <div className="brand-image-wrapper">
-              <div className="brand-image">
+               <div className="brand-image">
                 <img 
-                  src="/src/assets/pngtree-vibrant-indian-spice-mix-with-turmeric-and-chili-peppers-on-wooden-image_17217516.jpg" 
-                  alt="Vibrant Indian Spices" 
+                 src={VibrantIndianSpices}
+                  alt="Vibrant Indian Spices"
                   className="brand-img"
                 />
+                
+              </div>
               </div>
               <div className="experience-badge">
                 <span className="experience-number">25+</span>

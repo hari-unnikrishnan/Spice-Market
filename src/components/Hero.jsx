@@ -21,29 +21,7 @@ const Hero = () => {
   return (
     <section className="hero">
       {/* Floating Spice Background Elements */}
-      {/* <div className="hero-floating-elements">
-        {spiceEmojis.map((item, index) => (
-          <motion.div
-            key={index}
-            className="floating-spice"
-            initial={{ opacity: 0, y: 100, rotate: 0 }}
-            animate={{ 
-              opacity: [0, 0.8, 0],
-              y: [-20, -100],
-              rotate: [0, 15, -15, 0],
-            }}
-            transition={{
-              duration: 4,
-              delay: item.delay,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-            style={{ left: `${15 + index * 15}%` }}
-          >
-            {item.emoji}
-          </motion.div>
-        ))}
-      </div> */}
+     
 
       <div className="hero-overlay"></div>
       <div className="hero-content">
